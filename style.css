@@ -1,0 +1,29 @@
+body {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 2em;
+}
+h1 {
+  color: #ff00cc;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+.menu a {
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  padding: 1em 2em;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  transition: transform 0.2s;
+}
+.menu a:hover {
+  transform: scale(1.05);
+}
